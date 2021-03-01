@@ -1,0 +1,1000 @@
+ 1122  kubectl get pods
+ 1123  kubectl describe pods microbot-766bbbfdfc-j54m9
+ 1124  kubectl get pods
+ 1125  kubectl delete deployment --all
+ 1126  kubectl get pods
+ 1127  kubectl get service
+ 1128  kubectl delete service microbot-service
+ 1129  docker ps
+ 1130  kubectl cluster-info
+ 1131  code .
+ 1132  kubectl get nodes
+ 1133  docker ps
+ 1134  top
+ 1135  kubectl get pod
+ 1136  kubectl get pod -A
+ 1137  kubectl describe pod svclb-traefik-fw64f -n kube-system 
+ 1138  kubectl describe nodes
+ 1139  df -h
+ 1140  lsblk
+ 1141  kubectl describe nodes
+ 1142  kubectl get pod -A
+ 1143  kubectl get events
+ 1144  kubectl get taint
+ 1145  kubectl get taints
+ 1146  kubectl get nodes -o yaml
+ 1147  df -h
+ 1148  free -h
+ 1149  free -Th
+ 1150  df -h
+ 1151  ls
+ 1152  cd /
+ 1153  ls
+ 1154  ls -l
+ 1155  du -sh *
+ 1156  sudo su
+ 1157  '
+ 1158  kubectl get events
+ 1159  kubectl get pod -A
+ 1160  clear
+ 1161  kubectl get nodes
+ 1162  curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
+ 1163  curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
+ 1164  cat <<EOF >>./kustomization.yaml
+ 1165  resources:
+ 1166    - mysql-deployment.yaml
+ 1167    - wordpress-deployment.yaml
+ 1168  EOF
+ 1169  kubectl apply -k ./
+ 1170  kubectl get secrets
+ 1171  kubectl get pvc
+ 1172  kubectl get pods
+ 1173  kubectl get pvc
+ 1174  kubectl get pods
+ 1175  kubectl delete -k ./
+ 1176  kubectl get pods
+ 1177  kubectl get pvc
+ 1178  df -Th
+ 1179  docker rmi $(docker images)
+ 1180  docker images
+ 1181  df -h
+ 1182  docker build -t reactapp
+ 1183  docker build -t reactapp .
+ 1184  docker images
+ 1185  docker build -t reactapp .
+ 1186  docker status
+ 1187  systemctl status docker 
+ 1188  docker build -t reactapp .
+ 1189  docker -v
+ 1190  docker info
+ 1191  docker build -t reactapp .
+ 1192  sudo ls var/lib/docker/overlay2/ceff525be58d5a92e8a3964c527d5c418fedbdfb01300ee4fcb62177ca7003ff-init/
+ 1193  docker build -t reactapp .
+ 1194  ls var/lib/docker/overlay2/d8d1f179b68ba6cf8271c9696c6851a4c1ceb2de933d37ea67be86ca4bdda07d
+ 1195  ls var/lib/docker/overlay2/d8d1f179b68ba6cf8271c9696c6851a4c1ceb2de933d37ea67be86ca4bdda07d-init/merged
+ 1196  docker build -t reactapp .
+ 1197  docker images
+ 1198  docker tag go sagark24/golang
+ 1199  docker push sagark24/golang
+ 1200  docker login
+ 1201  docker push sagark24/golang
+ 1202  kubectl apply -f react.yaml 
+ 1203  kubectl get pods
+ 1204  kubectl apply -f react.yaml 
+ 1205  kubectl get pods
+ 1206  kubectl logs -f myapp-6d75cd85c5-c72p8
+ 1207  kubectl describe -f myapp-6d75cd85c5-c72p8
+ 1208  kubectl describe pods myapp-6d75cd85c5-c72p8
+ 1209  kubectl get pods
+ 1210  kubectl describe pods myapp-fccd588db-7g5r6
+ 1211  kubectl apply -f react.yaml 
+ 1212  kubectl describe pods myapp-fccd588db-7g5r6
+ 1213  kubectl get pods
+ 1214  kubectl apply -f react.yaml 
+ 1215  kubectl get pods
+ 1216  kubectl get deployment
+ 1217  kubectl get pods
+ 1218  kubectl delete deployment myapp
+ 1219  kubectl get pods
+ 1220  k3d
+ 1221  docker ps
+ 1222  kubectl get nodes
+ 1223  docker start 1e90d1de5582
+ 1224  kubectl get nodes
+ 1225  docker ps
+ 1226  docker ps -a
+ 1227  k3d --version
+ 1228  docker start 48b32da657d2
+ 1229  docker ps -a
+ 1230  df -h
+ 1231  kubectl get node
+ 1232  kubectl get nodes
+ 1233  kubectl config view
+ 1234  kubectl config get-contexts
+ 1235  kubectl config use-context k3d-cluster2
+ 1236  kubectl get nodes
+ 1237  df -h
+ 1238  ls
+ 1239  s
+ 1240  kubectl get nodes
+ 1241  k3d 
+ 1242  k3d node 
+ 1243  k3d node create 
+ 1244  k3d node create --cluster k3d-cluster2-server-0
+ 1245  k3d node list
+ 1246  k3d cluster list
+ 1247  k3d node create --cluster cluster2
+ 1248  k3d node create workernode  --cluster cluster2
+ 1249  kubectl get nodes
+ 1250  k3d node list
+ 1251  k3d delete cluster
+ 1252  k3d delete
+ 1253  k3d
+ 1254  k3c cluster delete 
+ 1255  k3d cluster delete 
+ 1256  k3d cluster delete cluster1
+ 1257  kubectl get nodes
+ 1258  kubectl get pods
+ 1259  docker ps
+ 1260  k3d node list
+ 1261  kubectx
+ 1262  df -h
+ 1263  ip a
+ 1264  clear
+ 1265  docker ps;
+ 1266  ls
+ 1267  cd go
+ 1268  ls
+ 1269  cd ..
+ 1270  cd golang
+ 1271  ls
+ 1272  docker build -t go .
+ 1273  cat Dockerfile 
+ 1274  docker build -t go .
+ 1275  ls
+ 1276  cat main.go 
+ 1277  df -h
+ 1278  kubectl apply -f mysql-deployment.yaml 
+ 1279  kubectl apply -f wordpress-deployment.yaml 
+ 1280  kubectl get pods
+ 1281  docker ps
+ 1282  kubectl get nodes
+ 1283  kubectl get nodes -A
+ 1284  kubectl get node -A
+ 1285  docker ps
+ 1286  kubectl get pods
+ 1287  kubectl get deployment
+ 1288  kubectl get pods
+ 1289  kubectl logs -f wordpress-mysql-6c479567b-w6q9r
+ 1290  kubectl describe pods wordpress-mysql-6c479567b-w6q9r
+ 1291  kubectl apply -k ./
+ 1292  kubectl get secret
+ 1293  vim <<EOF >./kustomization.yaml
+ 1294  secretGenerator:
+ 1295  - name: mysql-pass
+ 1296    literals:
+ 1297    - password=YOUR_PASSWORD
+ 1298  vim <<EOF >./kustomization.yaml
+ 1299  secretGenerator:
+ 1300  - name: mysql-pass
+ 1301    literals:
+ 1302    - password=YOUR_PASSWORD
+ 1303  cat <<EOF >./kustomization.yaml
+ 1304  secretGenerator:
+ 1305  - name: mysql-pass
+ 1306    literals:
+ 1307    - password=YOUR_PASSWORD
+ 1308  EOF
+ 1309  kubectl apply -k ./
+ 1310  kubectl get pods
+ 1311  kubectl get node -A
+ 1312  kubectl  node -A
+ 1313  kubectl get secrets
+ 1314  kubectl get pvc
+ 1315  kubectl get pods
+ 1316  kubectl describe pods wordpress-5994d99f46-jsl4m
+ 1317  cd
+ 1318  kubectl get deployment
+ 1319  kubectl delete deployment wordpress-mysql
+ 1320  kubectl delete deployment wordpress
+ 1321  kubectl get pods
+ 1322  kubectl delete pods svclb-wordpress-2jr2k
+ 1323  kubectl delete pods svclb-wordpress-8dhg8
+ 1324  kubectl get pods
+ 1325  kubectl get deployment
+ 1326  kubectl delete pods svclb-wordpress-8dhg8
+ 1327  kubectl get deployment
+ 1328  kubectl get pods
+ 1329  kubectl get pv
+ 1330  kubectl get pvc
+ 1331  kubectl delete pvc --all
+ 1332  kubectl get service
+ 1333  kubectl delete service my-react-app
+ 1334  kubectl delete service wordpress-mysql
+ 1335  kubectl delete service wordpress
+ 1336  kubectl get service
+ 1337  kubectl get node -o wide
+ 1338  kubectx
+ 1339  kubectl get nodes
+ 1340  kubectl apply -f mongodb-secret.yaml 
+ 1341  kubectl get secret
+ 1342  kubectl apply -f mango.yaml 
+ 1343  kubectl get pods
+ 1344  kubectl apply -f mango.yaml 
+ 1345  kubectl get pods
+ 1346  kubectl describe pods mongodb-deployment-8f6675bc5-q9gcx
+ 1347  kubectl get pods
+ 1348  kubectl describe pods mongodb-deployment-8f6675bc5-q9gcx
+ 1349  kubectl get pods
+ 1350  kubectl describe pods mongodb-deployment-8f6675bc5-q9gcx
+ 1351  kubectl logds pods mongodb-deployment-8f6675bc5-q9gcx
+ 1352  kubectl logs pods mongodb-deployment-8f6675bc5-q9gcx
+ 1353  kubectl logs deployment mongodb-deployment-8f6675bc5-q9gcx
+ 1354  kubectl describe pods mongodb-deployment-8f6675bc5-q9gcx
+ 1355  kubectl delete pod --all
+ 1356  kubectl get podas
+ 1357  kubectl get pods
+ 1358  kubectl describe pods mongodb-deployment-8f6675bc5-q9gcx
+ 1359  kubectl get pods
+ 1360  kubectl get deployments
+ 1361  kubectl get pods
+ 1362  kubectl describe pods mongodb-deployment-8f6675bc5-hzkc6
+ 1363  kubectl get service
+ 1364  kubectl apply -f mongo-configmap.yaml 
+ 1365  kubectl get configmap
+ 1366  kubectl apply -f mongo-express-deployment.ya
+ 1367  kubectl get pods
+ 1368  kubectl describe pods mongo-express-deployment-78fcf796b8-nmgfq
+ 1369  kubectl get pos
+ 1370  kubectl get pods
+ 1371  kubectl get service
+ 1372  kubectl describe service mongo-express-service
+ 1373  kubectl get service
+ 1374  kubectl get all
+ 1375  kubectl get pods
+ 1376  kubectl apply -f mango.yaml 
+ 1377  kubectl delete deployment --all
+ 1378  kubectl get pods
+ 1379  kubectl get pods
+ 1380  kubectl get service
+ 1381  kubectl delete service mongodb-service
+ 1382  kubectl delete service mongo-express-service
+ 1383  kubectl get service
+ 1384  kubectl get pods
+ 1385  kubectl delete secret mongodb-secret
+ 1386  kubectl get secret
+ 1387  kubectl get pods
+ 1388  kubectl apply -f nginx.yaml 
+ 1389  kubectl get pods
+ 1390  kubectl get service
+ 1391  kubectl describe pods nginx-deployment-585449566-62gs8
+ 1392  kubectl get service
+ 1393  curl localhost:30080
+ 1394  curl 10.0.8.69:30080
+ 1395  curl 10.0.8.69:80
+ 1396  kubectl apply -f nginx.yaml 
+ 1397  kubectl 
+ 1398  kubectl get service
+ 1399  kubectl get pods
+ 1400  kubectl get service
+ 1401  kubectl 
+ 1402  kubectl apply -f nginx.yaml 
+ 1403  kubectl get service
+ 1404  ufw status
+ 1405  sudo ufw status
+ 1406  sudo ufw disable 
+ 1407  sudo ufw status
+ 1408  kubectl get service
+ 1409  kubectl starrt service
+ 1410  kubectl start service
+ 1411  kubectl 
+ 1412  kubectl get pods
+ 1413  kubectl logs pods nginx-deployment-585449566-62gs8
+ 1414  kubectl logs -f  nginx-deployment-585449566-62gs8
+ 1415  kubectl get service
+ 1416  kubectl logs -f  nginx-svc
+ 1417  kubectl logs -f  swervice nginx-svc
+ 1418  kubectl logs -f  service nginx-svc
+ 1419  kubectl logs service nginx-svc
+ 1420  kubectl apply -f nginx.yaml 
+ 1421  kubectl get pods
+ 1422  kubectl get service
+ 1423  kubectl get nodes -o wide
+ 1424  ping 172.21.0.2
+ 1425  kubectl apply -f react.yaml 
+ 1426  kubectl get pod
+ 1427  kubectl describe pods react-deployment-56d65f896-kvmhc
+ 1428  kubectl apply -f react.yaml 
+ 1429  kubectl get pod
+ 1430  kubectl describe pods react-deployment-8787d967b-p592j
+ 1431  kubectl apply -f react.yaml 
+ 1432  kubectl describe pods react-deployment-8787d967b-p592j
+ 1433  kubectl get pod
+ 1434  kubectl describe pods react-deployment-7d4f9d7f4d-b2dqd
+ 1435  docker images
+ 1436  docker login
+ 1437  docker pull wordpress
+ 1438  kubectl get pod
+ 1439  kubectl get deployment 
+ 1440  kubectl delete deployment react-deployment
+ 1441  kubectl get pod
+ 1442  kubectl get service
+ 1443  kubectl delete service react-svc
+ 1444  kubectl get service
+ 1445  kubectl get nodes -o wide
+ 1446  ping 172.21.0.2
+ 1447  ping 172.21.0.4
+ 1448  kubectl get pod
+ 1449  kubectl get service
+ 1450  cat <<EOF >./kustomization.yaml
+ 1451  secretGenerator:
+ 1452  - name: mysql-pass
+ 1453    literals:
+ 1454    - password=YOUR_PASSWORD
+ 1455  EOF
+ 1456  curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
+ 1457  curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
+ 1458  cat <<EOF >>./kustomization.yaml
+ 1459  resources:
+ 1460    - mysql-deployment.yaml
+ 1461    - wordpress-deployment.yaml
+ 1462  EOF
+ 1463  kubectl apply -k ./
+ 1464  kubectl get pods
+ 1465  kubectl describe pods wordpress-mysql-f6cb6ff6-5gv2h
+ 1466  kubectl get pods
+ 1467  docker ps -a
+ 1468  docker psA
+ 1469  kubectl describe pods wordpress-mysql-f6cb6ff6-5gv2h
+ 1470  kubectl get node
+ 1471  kubectl get service
+ 1472  kubectl get pods
+ 1473  kubectl delete deployment 
+ 1474  kubectl get deployment 
+ 1475  kubectl delete deployment wordpress
+ 1476  kubectl delete deployment wordpress-mysql;
+ 1477  kubectl get deployment 
+ 1478  kubectl get pods
+ 1479  kubectl delete pods svclb-wordpress-gxh84
+ 1480  kubectl delete pods svclb-wordpress-69j6q
+ 1481  kubectl get service
+ 1482  kubectl delete service wordpress-mysql
+ 1483  kubectl delete service wordpress
+ 1484  kubectl get service
+ 1485  kubectl get secret
+ 1486  kubectl delete secret mysql-pass-tkk5gcg7f6
+ 1487  kubectl delete secret mysql-pass-c57bb4t7mf
+ 1488  kubectl get pvc
+ 1489  kubectl delete pvc --all
+ 1490  kubectl apply -f nginx.yaml 
+ 1491  kubectl get podsa
+ 1492  kubectl get pods
+ 1493  kubectl get service
+ 1494  kubectl get pods
+ 1495  kubectl describe pods nginx-deployment-75898b7c5b-9pqv7
+ 1496  kubectl get pods
+ 1497  kubectl apply -f nginx.yaml 
+ 1498  kubectl get pods
+ 1499  kubectl get deployment
+ 1500  kubectl delete pods nginx-deployment-577b76bb55-2wr59
+ 1501  kubectl get deployment
+ 1502  kubectl get pods
+ 1503  kubectl delete pods nginx-deployment-577b76bb55-f4ns8
+ 1504  kubectl apply -f nginx.yaml 
+ 1505  kubectl get pods
+ 1506  kubectl delete pods nginx-deployment-577b76bb55-f4ns8
+ 1507  kubectl apply -f react.yaml 
+ 1508  kubectl get pod
+ 1509  docker images
+ 1510  kubectx
+ 1511  kubectl get nodes
+ 1512  kubectl apply -f nginx.yaml 
+ 1513  kubectl get pod
+ 1514  kubectl describe pod nginx-deployment-7fcc6f675f-x2ndb
+ 1515  kubectl apply -f nginx.yaml 
+ 1516  kubectl get pod
+ 1517  kubectl describe pod nginx-deployment-ccd7bc6dc-jt5j4
+ 1518  kubectl get service
+ 1519  kubectl get node -o wide
+ 1520  ping 172.20.0.4
+ 1521  kubectl get service
+ 1522  k3d
+ 1523  kubectl get service
+ 1524  kubectl get pods
+ 1525  kubectl apply -f nginx.yaml 
+ 1526  kubectl get pods
+ 1527  kubectl get service
+ 1528  ping 172.20.0.4
+ 1529  kubectl get node -o wide
+ 1530  docker pull sagark24/nodeapplication:v1
+ 1531  docker pull alpine
+ 1532  docker pull sagark24/nodeapplication:v1
+ 1533  sudo vsu
+ 1534  sudo su
+ 1535  ls
+ 1536  docker pull sagark24/nodeapplication:v1
+ 1537  lsblk
+ 1538  docker ps 
+ 1539  docker ps -a
+ 1540  docker pull sagark24/nodeapplication:v1
+ 1541  k3d
+ 1542  df -h
+ 1543  kubect get pods
+ 1544  kubectl get pods
+ 1545  kubectx
+ 1546  docker ps
+ 1547  k3d node list
+ 1548  k3d cluster list
+ 1549  k3d cluster create cluster1
+ 1550  k3d cluster list
+ 1551  k3d cluster create cluster2
+ 1552  k3d cluster list
+ 1553  kubectx
+ 1554  kubectx k3d-cluster1
+ 1555  kubectx
+ 1556  k3d node create worker --cluster cluster1
+ 1557  kubectx
+ 1558  k3d node list
+ 1559  sudo su
+ 1560  ls
+ 1561  kubectl get nodes
+ 1562  kubect get pod
+ 1563  kubectlge tpod
+ 1564  kubectl get pod
+ 1565  kubectl exec -ti myapp-676c59fcb9-mzfxs sh 
+ 1566  sudo su
+ 1567  cat <<EOF >./kustomization.yaml
+ 1568  secretGenerator:
+ 1569  - name: mysql-pass
+ 1570    literals:
+ 1571    - password=YOUR_PASSWORD
+ 1572  EOF
+ 1573  kubectl get secret
+ 1574  apiVersion: v1
+ 1575  kind: Service
+ 1576  metadata:
+ 1577  spec:
+ 1578  ---
+ 1579  apiVersion: v1
+ 1580  kind: PersistentVolumeClaim
+ 1581  metadata:
+ 1582  spec:
+ 1583  ---
+ 1584  apiVersion: apps/v1
+ 1585  kind: Deployment
+ 1586  metadata:
+ 1587  spec:
+ 1588  cd /media/sagarshrestha/sagar/
+ 1589  cd wordpress/
+ 1590  ls
+ 1591  code .
+ 1592  ls
+ 1593  ls
+ 1594  cd ..
+ 1595  ls
+ 1596  mkdir wordpress-kuber
+ 1597  cd wordpress-kuber/
+ 1598  ls
+ 1599  cat <<EOF >./kustomization.yaml
+ 1600  secretGenerator:
+ 1601  - name: mysql-pass
+ 1602    literals:
+ 1603    - password=YOUR_PASSWORD
+ 1604  EOF
+ 1605  ls
+ 1606  vim mysql-deployment.yaml
+ 1607  vim wordpress-deployment.yaml
+ 1608  cat <<EOF >>./kustomization.yaml
+ 1609  resources:
+ 1610    - mysql-deployment.yaml
+ 1611    - wordpress-deployment.yaml
+ 1612  EOF
+ 1613  ls
+ 1614  cat kustomization.yaml 
+ 1615  kubectl apply -k ./
+ 1616  kubectl get secrets
+ 1617  kubectl get pods
+ 1618  kubectl get services
+ 1619  kubectl get pods
+ 1620  kubectl describe pod wordpress-mysql-66d69866f6-t72nf
+ 1621  kubectl describe pod wordpress-578dd85b66-dg8pv
+ 1622  kubectl get pods
+ 1623  kubectl describe wordpress-578dd85b66-dg8pv
+ 1624  kubectl describe pod  wordpress-578dd85b66-dg8pv
+ 1625  kubectl get pvc
+ 1626  kubectl get pods
+ 1627  cat wordpress-deployment.yaml 
+ 1628  kubectl get pvc
+ 1629  kubectl describe pvc mysql-pv-claim
+ 1630  k3d cluster-info
+ 1631  k3d config  cluster-info
+ 1632  k3d config  get cluster
+ 1633  k3d cluster list
+ 1634  kubectl get nodes
+ 1635  kubelet get nodes
+ 1636  kubectl get pods
+ 1637  cd
+ 1638  kubectl get service 
+ 1639  kubectl get node -o wide
+ 1640  ping 172.21.0.4
+ 1641  ls
+ 1642  docker images
+ 1643  cd kubernetes/
+ 1644  lsa
+ 1645  ls
+ 1646  code .
+ 1647  cd
+ 1648  cd golang/
+ 1649  ls
+ 1650  cat main.go 
+ 1651  docker images
+ 1652  sudo su
+ 1653  cd
+ 1654  mkdir reactapp
+ 1655  ls
+ 1656  cd dashboard/
+ 1657  ls
+ 1658  cp . ../reactapp/ -r
+ 1659  cd 
+ 1660  cd reactapp/
+ 1661  ls
+ 1662  code .
+ 1663  cd
+ 1664  git clone https://gitlab.com/sagar.shrestha2/reactapp.git
+ 1665  rm -rf reactapp/
+ 1666  git clone https://gitlab.com/sagar.shrestha2/reactapp.git
+ 1667  ls
+ 1668  cd reactapp/
+ 1669  ls
+ 1670  ls -al
+ 1671  cp ../dashboard/* . -r
+ 1672  ls
+ 1673  git add .
+ 1674  git commit -m "1"
+ 1675  git push
+ 1676  cd ~/.ssh/
+ 1677  ls
+ 1678  cat id_rsa.pub 
+ 1679  cd
+ 1680  ssh root@51.81.168.232
+ 1681  git config --global user.name "Sagar Shrestha"
+ 1682  git config --global user.email "sagar.shrestha@berrybytes.com"
+ 1683  git init
+ 1684  git remote add origin https://gitlab.com/sagar.shrestha2/reactapp.git
+ 1685  git add .
+ 1686  git commit -m "firdst"
+ 1687  git push -u origin master
+ 1688  git push -u https://github.com/sagarshrestha24/dashboard.git master
+ 1689  git push
+ 1690  git 
+ 1691  git user list
+ 1692  git user --list
+ 1693  git config --global list
+ 1694  git config --global --list
+ 1695  git remote add origin https://gitlab.com/sagar.shrestha2/reactapp.git
+ 1696  git push 
+ 1697  git pull
+ 1698  docker build -t reactapp .
+ 1699  docker images
+ 1700  docker build -t reactapplication .
+ 1701  docker tag reactapplication:latest sagark24/reactapp:v1
+ 1702  docker push sagark24/reactapp:v1
+ 1703  kubectl apply -f react.yaml 
+ 1704  kubectl get pod
+ 1705  kubectl apply -f react.yaml 
+ 1706  kubectl get pod
+ 1707  kubectl get service
+ 1708  kubectl describe pods myapp-676c59fcb9-mzfxs
+ 1709  kubectl get node -o wide
+ 1710  kubectl get service
+ 1711  kubectl get pod
+ 1712  kubectl logs -f myapp-676c59fcb9-mzfxs
+ 1713  kubectl logs -f nginx-deployment-585449566-stl4s
+ 1714  kubectl get service
+ 1715  kubectl get pod
+ 1716  kubectl get node -o wide
+ 1717  kubectl get nodes
+ 1718  kubectl get pod
+ 1719  kubectl get nodes
+ 1720  kubectl get node -o wide
+ 1721  kubectl get pod
+ 1722  kubectl get pod -o wide
+ 1723  kubectl get nodes
+ 1724  kubectl get nodes -o wide
+ 1725  ls
+ 1726  kubectl get svc
+ 1727  kubectl port-forward svc/my-react-app 9999:8081
+ 1728  ls
+ 1729  kubectl get pod
+ 1730  kubectl exec -ti myapp-676c59fcb9-mzfxs bash 
+ 1731  kubectl exec -ti myapp-676c59fcb9-mzfxs sh
+ 1732  kubectl get pod
+ 1733  ifconfig
+ 1734  s
+ 1735  kubectl apply -f react.yaml 
+ 1736  kubectl get nodes -o wide
+ 1737  kubectl get nodes
+ 1738  kubectl get pod -o wide
+ 1739  kubectl get nodes -o wide
+ 1740  cd reactapp/
+ 1741  touch sagar
+ 1742  vim sagar 
+ 1743  git add .
+ 1744  git commit -m "sagar"
+ 1745  git push
+ 1746  vim .gitlab-ci.yaml
+ 1747  vim .gitlab-ci.yaml 
+ 1748  git add . && git commit -m "1231" && git push
+ 1749  mv .gitlab-ci.yaml .gitlab-ci.yml 
+ 1750  git add . && git commit -m "1231" && git push
+ 1751  kubectl get pod
+ 1752  kubectl exec -ti pods myapp-658998788-smz47
+ 1753  kubectl get node -o wide
+ 1754  kubect lget pods
+ 1755  kubectl get pods
+ 1756  kubectl exec -ti myapp-658998788-smz47
+ 1757  kubectl exec -ti myapp-658998788-smz47 bash
+ 1758  kubectl exec -ti myapp-658998788-smz47 sh
+ 1759  kubectl apply -k .
+ 1760  kubectl get pods
+ 1761  kubectl describe pods wordpress-mysql-f6cb6ff6-mcwjz
+ 1762  kubectl get pods
+ 1763  kubectl describe pods wordpress-58c49795c4-n9pmn
+ 1764  kubectl get pods
+ 1765  kubectl get service
+ 1766  kubectl describe service wordpress
+ 1767  kubectl get node -o wide
+ 1768  kubectl get pods
+ 1769  kubectl exec -ti wordpress-58c49795c4-n9pmn bash
+ 1770  kubectl exec -ti wordpress-58c49795c4-n9pmn sh
+ 1771  kubectl get pods
+ 1772  kubectl get node -o wide
+ 1773  kubectl get service
+ 1774  kubectl apply -f nginx.yaml 
+ 1775  kubectl get pods
+ 1776  kubectl get service
+ 1777  kubectl get node -o wide
+ 1778  curl -kL http://localhost/
+ 1779  curl mynginx.com
+ 1780  kubectl apply -f nginx.yaml 
+ 1781  kubectl get pods
+ 1782  kubectl get service
+ 1783  kubectl get nodes
+ 1784  kubectl get pods
+ 1785  kubectl get service
+ 1786  cd dashboard/
+ 1787  ls
+ 1788  code .
+ 1789  kubectl exec -ti myapp-676c59fcb9-mzfxs bash 
+ 1790  kubectl get nodes -o wide
+ 1791  cd
+ 1792  ls
+ 1793  cd kubernetes/
+ 1794  ls
+ 1795  code .
+ 1796  sudo su
+ 1797  cd Desktop/saptabazar-dashboard/
+ 1798  ls
+ 1799  code .
+ 1800  kubectl get nodes
+ 1801  kubectl get pods
+ 1802  kubectl get services
+ 1803  kubectl get node -o  wide
+ 1804  ssh sshrestha@51.81.168.232
+ 1805  git push
+ 1806  git push .
+ 1807  git push origin main
+ 1808  cd dashboard/
+ 1809  code .
+ 1810  git remote -v
+ 1811  git remote remove origin 
+ 1812  git remote -v
+ 1813  git remote add upstream https://github.com/marmelab/react-admin.git
+ 1814  git remote add origin https://github.com/sagarshrestha24/react-admin.git
+ 1815  git remote -v 
+ 1816  git status
+ 1817  git add .
+ 1818  git commit -m "ma"
+ 1819  git branch test
+ 1820  git push origin test
+ 1821  git add . && git commit -m "shrestha" 
+ 1822  git push origin test
+ 1823  git push 
+ 1824  git status
+ 1825  git checkout test
+ 1826  git 
+ 1827  git add . && git commit -m "shrestha" 
+ 1828  git push 
+ 1829  git push origin test
+ 1830  git clone https://github.com/sagarshrestha24/react-admin.git
+ 1831  cd react-admin/
+ 1832  code .
+ 1833  docker images
+ 1834  kubectl get nodes
+ 1835  kubectl get pods
+ 1836  kubectl get node -o wide
+ 1837  ping 172.20.0.3
+ 1838  kubectl get services
+ 1839  kubectl get pods
+ 1840  kubectl describe pods wordpress-58c49795c4-n9pmn
+ 1841  kubectl get node -o wide
+ 1842  kubectl describe pods wordpress-58c49795c4-n9pmn
+ 1843  kubectl get node -o wide
+ 1844  docker ps
+ 1845  docker ps -a
+ 1846  kubectl get pods
+ 1847  kubectl describe pods myapp-658998788-smz47
+ 1848  kubectl get services
+ 1849  kubectl logs -f myapp-658998788-smz47
+ 1850  kubectl describe services my-react-app
+ 1851  kubectx 
+ 1852  kubectl get nodes
+ 1853  kubectl get services
+ 1854  kubectl apply -f nginx.yaml 
+ 1855  kubectl get pods
+ 1856  kubectl get services
+ 1857  kubectl apply -f nginx.yaml 
+ 1858  kubectl get pods
+ 1859  kubectl logs -f wordpress-58c49795c4-n9pmn
+ 1860  kubectl get pods
+ 1861  kubectl get services
+ 1862  kubectl get node -o wide
+ 1863  kubectl logs -f nginx-deployment-585449566-stl4s
+ 1864  k3d
+ 1865  kubect lget node -o wide
+ 1866  kubect get node -o wide
+ 1867  kubectl get node -o wide
+ 1868  kubect lget serrvices
+ 1869  kubect lget services
+ 1870  kubectl get services
+ 1871  df -h
+ 1872  kubectl get secret
+ 1873  echo -n 'password' | base64
+ 1874  kubectl apply -f kustomization.yaml 
+ 1875  kubectl get secret
+ 1876  kubectl delete  secret mysql-pass-tkk5gcg7f6
+ 1877  kubectl get secret
+ 1878  kubectl apply -f kustomization.yaml 
+ 1879  kubectl get secret
+ 1880  kubectl get pods
+ 1881  kubectl get services
+ 1882  kubectl get node -o wide
+ 1883  kubectl get secret
+ 1884  kubectl delete secret mysql-pass
+ 1885  kubectl get services
+ 1886  kubectl get node -o wide
+ 1887  kubectl apply -f kustomization.yaml 
+ 1888  kubectl apply -f mysql-deployment.yaml 
+ 1889  kubectl apply -f wordpress-deployment.yaml 
+ 1890  kubectl get pods
+ 1891  kubectl get services
+ 1892  kubectl get node -o wide
+ 1893  kubectl apply -f mysql-deployment.yaml 
+ 1894  kubectl apply -f wordpress-deployment.yaml 
+ 1895  kubectl get services
+ 1896  kubectl get node -o wide
+ 1897  kubectl describe service swordpress
+ 1898  kubectl describe services wordpress
+ 1899  kubectl get pods
+ 1900  kubectl descibe pods wordpress-5994d99f46-mmhdl
+ 1901  kubectl describe pods wordpress-5994d99f46-mmhdl
+ 1902  kubectl get pods
+ 1903  kubectl describe pods wordpress-mysql-6c479567b-2lqmw
+ 1904  wordpress-mysql-6c479567b-2lqmw
+ 1905  kubectl get pods
+ 1906  kubectl get deployment
+ 1907  kubectl delete deployment wordpress-mysql
+ 1908  kubectl delete deployment wordpress
+ 1909  kubectl get deployment
+ 1910  kubectl get pods
+ 1911  kubectl get services
+ 1912  kubectl delete services wordpress-mysql
+ 1913  kubectl delete services wordpress;
+ 1914  kubectl get services
+ 1915  kubectl get pv
+ 1916  kubectl delete pv --all
+ 1917  kubectl get pv
+ 1918  kubectl delete pv --all
+ 1919  kubectl get pvc
+ 1920  kubectl delete pvc --al
+ 1921  kubectl delete pvc --all
+ 1922  kubectl get pvc
+ 1923  kubectl get pv
+ 1924  kubectl get secret
+ 1925  kubectl apply -f mysql-deployment.yaml 
+ 1926  kubectl get pv
+ 1927  kubectl get pvc
+ 1928  kubectl apply -f wordpress-deployment.yaml 
+ 1929  kubectl get pvc
+ 1930  kubectl get pv
+ 1931  kubectl get pods
+ 1932  kubectl get services
+ 1933  kubectl get node -o wide
+ 1934  kubectl get noides
+ 1935  kubetl get nodes
+ 1936  kubectl get nodes
+ 1937  kubectl describe node k3d-worker-0
+ 1938  110
+ 1939  kubectl describe node k3d-worker-0
+ 1940  kubectl get pod
+ 1941  kubectl get services
+ 1942  kubectl get node -o wide
+ 1943  kubectl get pods
+ 1944  kubectl describe pods svclb-wordpress-jn88h
+ 1945  kubectl get pods
+ 1946  kubectl delete pods svclb-wordpress-jn88h
+ 1947  kubectl get pods
+ 1948  kubectl get deployment
+ 1949  kubectl get pods
+ 1950  vagrant
+ 1951  apt install vagrant
+ 1952  sudo apt install vagrant
+ 1953  vagrant 
+ 1954  kubectl get node
+ 1955  vagrant ssh k3d-worker-0
+ 1956  k3d node list
+ 1957  vagrant ssh worker
+ 1958  vagrant 
+ 1959  vagrant -h
+ 1960  vagrant login
+ 1961  kubetcl exec -ti k3d-worker sh
+ 1962  kubectl exec -ti k3d-worker sh
+ 1963  kubectl get node
+ 1964  kubectl exec -ti k3d-worker-0 sh
+ 1965  k3d node list
+ 1966  kubectx
+ 1967  k3d enable ingress
+ 1968  k3d
+ 1969  df -h
+ 1970  cd /media/sagarshrestha/sagar/
+ 1971  cd wordpress
+ 1972  code .
+ 1973  cd'
+ 1974   ;
+ 1975  cd 
+ 1976  ls
+ 1977  cd dashboard/
+ 1978  code .
+ 1979  cd
+ 1980  cd /media/sagarshrestha/sagar/
+ 1981  cd wordpress
+ 1982  ls
+ 1983  cat kustomization.yaml 
+ 1984  cat mysql-deployment.yaml 
+ 1985  cd /media/sagarshrestha/sagar/
+ 1986  cd wordpress
+ 1987  cat kustomization.yaml 
+ 1988  code .
+ 1989  cd
+ 1990  ls
+ 1991  cd react-admin/
+ 1992  ls
+ 1993  code .
+ 1994  ls
+ 1995  ld
+ 1996  ls
+ 1997  kubectl get nodes
+ 1998  ls
+ 1999  cd ..
+ 2000  ls
+ 2001  cd /media/sagarshrestha/sagar/
+ 2002  ls
+ 2003  cd wordpress
+ 2004  ls
+ 2005  vim kustomization.yaml 
+ 2006  ls
+ 2007  vim mysql-deployment.yaml 
+ 2008  kubectl get pod
+ 2009  kubectl get namespace
+ 2010  kubectl get ns 
+ 2011  kubectl get pod -n kube-system
+ 2012  ls
+ 2013  vim mysql-deployment.yaml 
+ 2014  ls
+ 2015  kubectl config view
+ 2016  kubectl config get-contexts
+ 2017  ss -tualpn | grep 41877
+ 2018  netstat -tupan | grep 141877
+ 2019  sudo netstat -tupan | grep 141877
+ 2020  sudo netstat -tupan | grep 41877
+ 2021  kubectl get nodes
+ 2022  ls
+ 2023  vim mysql-deployment.yaml 
+ 2024  s
+ 2025  ls
+ 2026  kubectl get svc
+ 2027  ls
+ 2028  vim mysql-deployment.yaml 
+ 2029  ls
+ 2030  kubectl get nodes 
+ 2031  kubectl get svc 
+ 2032  ls
+ 2033  kubectl get pod
+ 2034  kubectl get pod myapp-5dfd66d58c-gjlng -o yaml\
+ 2035  kubectl get pod myapp-5dfd66d58c-gjlng -o yaml
+ 2036  kubectl get pod myapp-5dfd66d58c-gjlng -o yaml | more
+ 2037  ls
+ 2038  vim mysql-deployment.yaml 
+ 2039  ls
+ 2040  vim kustomization.yaml 
+ 2041  echo -n "suraj" | base64
+ 2042  echo s
+ 2043  ls
+ 2044  vim kustomization.yaml 
+ 2045  ls
+ 2046  vim mysql-deployment.yaml 
+ 2047  ls
+ 2048  vim wordpress-deployment.yaml 
+ 2049  ls
+ 2050  vim mysql-deployment.yaml 
+ 2051  s
+ 2052  kubectl get pod
+ 2053  kubectl delete pod wordpress-5994d99f46-mq55h 
+ 2054  kubectl get pod 
+ 2055  kubectl get rs 
+ 2056  ls
+ 2057  vim wordpress-deployment.yaml 
+ 2058  vim mysql-deployment.yaml 
+ 2059  ls
+ 2060  vim wordpress-deployment.yaml 
+ 2061  s
+ 2062  ls
+ 2063  vim mysql-deployment.yaml 
+ 2064  ls
+ 2065  vim wordpress-deployment.yaml 
+ 2066  ls
+ 2067  kubectl create ns test
+ 2068  kubectl get pods -n test
+ 2069  kubectl get all -n test
+ 2070  ls
+ 2071  s
+ 2072  vim kustomization.yaml 
+ 2073  kubectl apply -f kustomization.yaml
+ 2074  ls
+ 2075  kubectl get secrets -n test
+ 2076  ls
+ 2077  vim mysql-deployment.yaml 
+ 2078  kubectl apply -f mysql-deployment.yaml -n test 
+ 2079  kubectl get svc -n test
+ 2080  kubectl get svc wordpress-mysql -n test -oyaml
+ 2081  ls
+ 2082  kubectl get svc wordpress-mysql -n test -oyaml > test.yaml
+ 2083  vim test.yaml 
+ 2084  ls
+ 2085  kubectl get pod -n test
+ 2086  kubectl logs wordpress-mysql-6c479567b-r96h2 -n test
+ 2087  kubectl logs wordpress-mysql-6c479567b-r96h2 -n test -f 
+ 2088  ls
+ 2089  kubectl get pvc
+ 2090  kubectl get pvc -n test
+ 2091  ls
+ 2092  rm -rf test.yaml 
+ 2093  ls
+ 2094  vim wordpress-deployment.yaml 
+ 2095  kubectl apply -f wordpress-deployment.yaml 
+ 2096  kubectl apply -f wordpress-deployment.yaml  -n test 
+ 2097  kubectl get pod -n test
+ 2098  watch kubectl get pod -n test
+ 2099  kubectl describe pod wordpress-5994d99f46-hzvhs -n test
+ 2100  watch kubectl describe pod wordpress-5994d99f46-hzvhs -n test
+ 2101  ls
+ 2102  watch kubectl get pod -n test
+ 2103  ls
+ 2104  kubectl logs wordpress-5994d99f46-hzvhs -n test -f 
+ 2105  ls
+ 2106  kubectl get svc -n test
+ 2107  kubectl get pod -n test -o wide
+ 2108  kubectl get nodes -o wide
+ 2109  ls
+ 2110  kubectl config view
+ 2111  ls
+ 2112  vim ~/.kube/config 
+ 2113  s
+ 2114  la
+ 2115  kubectl get pod -n test
+ 2116  kubectl config get-contexts
+ 2117  kubectl get svc -n test
+ 2118  kubectl port-forward svc/wordpress -n test 9999:80
+ 2119  s
+ 2120  history
+ 2121  history > commands.yaml
